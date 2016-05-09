@@ -74,6 +74,11 @@ repo sync -j4 --force-sync --force-broken
 ```
 
 ## 编译源码
+编译之前先打一下补丁，主要是一些个人定制的设置。
+```
+./patcher/patcher.sh
+```
+然后才开始编译。
 ```
 . build/envsetup.sh
 lunch cm_onyx-userdebug
