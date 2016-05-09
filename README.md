@@ -87,3 +87,14 @@ make bacon -j8
 
 ## 检验成果
 编译完的 ROM 在 ~/CodeLife/src/cm-13.x/out/target/product/onyx 下，名为 cm-13.x-xxxx-STABLE-YumeMichi-onyx.zip，拿起手机刷起～
+
+## 更新
+更新源码之前需要先把之前打的 patch 移除掉。
+```
+./patcher/unpatcher.sh
+repo sync -j4 --force-sync --force-broken
+./patcher/patcher.sh
+. build/envsetup.sh
+lunch cm_onyx-userdebug
+make bacon -j8
+```
