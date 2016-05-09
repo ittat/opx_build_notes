@@ -57,6 +57,13 @@ source ~/venv/bin/active
 pip install backports.lzma
 ```
 
+#### 设置 Git 信息
+同步源码之前需要设置一下 Git 信息否则是无法同步源码的。
+```
+git config --global user.name "YumeMichi"
+git config --global user.email "do4suki@gmail.com"
+```
+
 #### 下载安卓源码
 ```
 cd ~/CodeLife/src/cm-13.x
