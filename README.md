@@ -14,7 +14,7 @@ Ubuntu 的话：
 ```
 sudo apt-get update
 sudo apt-get upgrade -y
-sudo apt-get install -y bison build-essential curl flex git gnupg gperf libesd0-dev libncurses5-dev libsdl1.2-dev libwxgtk2.8-dev libxml2 libxml2-utils lzop openjdk-7-jdk openjdk-7-jre pngcrush schedtool squashfs-tools xsltproc zip zlib1g-dev g++-multilib gcc-multilib lib32ncurses5-dev lib32readline-dev lib32z1-dev python2.7 python2.7-dev python-pip liblzma-dev bc unzip
+sudo apt-get install -y bison build-essential curl flex git gnupg gperf libesd0-dev libncurses5-dev libsdl1.2-dev libwxgtk2.8-dev libxml2 libxml2-utils lzop openjdk-7-jdk openjdk-7-jre pngcrush schedtool squashfs-tools xsltproc zip zlib1g-dev g++-multilib gcc-multilib lib32ncurses5-dev lib32readline-dev lib32z1-dev python2.7 python2.7-dev python-pip liblzma-dev bc unzip maven
 
 pip install backports.lzma
 ```
