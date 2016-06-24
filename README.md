@@ -31,9 +31,9 @@ sudo pacman -Sy gcc git gnupg flex bison gperf sdl wxgtk squashfs-tools curl ncu
 sudo pacman -Sy gcc-multilib lib32-zlib lib32-ncurses lib32-readline
 
 # AUR
-yaourt libtinfo
 yaourt ncurses5-compat-libs
 yaourt lib32-ncurses5-compat-libs
+ln -s /usr/lib/libncurses.so.5 /lib/libtinfo.so.5
 ```
 
 #### 设置 repo
